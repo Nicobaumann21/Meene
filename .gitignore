@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+.spark/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Daten (zu groß für Git)
+data/small/*.csv
+data/small/*.zip
+data/small/README.txt
+data/ml-25m/
+data/ml-latest/
+
+# Modelle
+models/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+logs/
