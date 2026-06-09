@@ -23,9 +23,6 @@ data/small/README.txt
 data/ml-25m/
 data/ml-latest/
 
-# Modelle
-models/
-
 # IDE
 .vscode/
 .idea/
